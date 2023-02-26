@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestPerson
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.414 s <<< FAILURE! - in TestPerson
+personIsTeenagerTest(TestPerson)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at TestPerson.personIsTeenagerTest(TestPerson.java:53)
+
+personIsTeenagerTest(TestPerson)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at TestPerson.personIsTeenagerTest(TestPerson.java:53)
+
+personIsTeenagerTest(TestPerson)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at TestPerson.personIsTeenagerTest(TestPerson.java:53)
+
+personIsTeenagerTest(TestPerson)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at TestPerson.personIsTeenagerTest(TestPerson.java:53)
+
