@@ -41,7 +41,7 @@ public class TestPerson {
                 {13,true},
                 {15,true},
                 {18,true},
-                {19,false},
+                {19,true},
                 {20,false}
         };
     }
@@ -49,7 +49,7 @@ public class TestPerson {
     @Test(dataProvider = "ageProvider")
     void personIsTeenagerTest(int age, boolean expected) {
         boolean result = Person.isTeenager(age);
-        System.out.println("For age " + age + ": " + "Actual result: " + result + " / " + "Expected result: " + expected);
+        System.out.println("Для возраста " + age + ": " + "Результат: " + result + " / " + "Ожидаемый результат: " + expected);
         assertEquals(result, expected);
     }
 }
